@@ -1,6 +1,158 @@
+body{
+	margin:1.5%;
+}
+header{
+	background-image: url("plant6.1.jpg");
+	background-repeat: repeat-x;
+}
+nav{
+	text-align: center;
+}
+#profile{
+	margin: 6%;
+
+	margin-left: 20%;
+	position: flex;
+	top: 20em;
+	width:60%;
+
+}
+.name{
+	font-family: 'Playfair Display', serif;
+	margin:1.5%;
+	
+	font-size: 35px;
+	text-align: center;
+}
+.name2{
+		font-family: 'Playfair Display', serif;
+		margin:1.5%;
+	margin-top: 4%;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.btn{
+	margin-left: 10em;
+	color:white;
+}
+
+.skills{
+	text-align: center;
+	margin: 5%;
+	padding: 5px;
+	font-family: 'Playfair Display', serif;
+	font-size: 35px;
+}
+.avatar{
+	align-items: center;
+	margin:2%;
+	padding: 10px;
+	margin-left: 14%;
+	border-radius: 50%;
+}
+
+card{
+	margin:10%;
+	width: 80%;
+}
 
 
-@media only screen and (min-width: 992px)
+
+#text{
+	margin-left: 2.5em;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	
+	
+	width: 80%;
+	
+
+
+}
+.edu{
+	text-align: center;
+	margin: 5%;
+	font-family: 'Playfair Display', serif;
+	font-size: 35px;
+}
+.line{
+	background-image: url("plant3.1.jpg");
+	background-repeat: repeat-x;
+}
+
+.contact{
+	text-align: center;
+		font-family: 'Playfair Display', serif;
+		font-size: 35px;
+
+}
+.icons{
+	text-align: center;
+}
+a{
+	color:black;
+}
+footer{
+		font-family: 'Work Sans', sans-serif;
+		text-align: center;
+		font-size: 15px;
+}
+
+
+
+
+
+
+
+.block {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  border-radius:50%;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px){
 body{
 	margin:1.5%;
 }
@@ -13,6 +165,7 @@ nav{
 }
 #profile{
 	margin:3%;
+	width: 30%;
 }
 .name{
 	font-family: 'Playfair Display', serif;
@@ -92,12 +245,6 @@ footer{
 		font-size: 15px;
 }
 
-
-
-
-
-
-
 .block {
   position: relative;
   width: 50%;
@@ -109,36 +256,4 @@ footer{
   width: 100%;
   height: auto;
 }
-
-.overlay {
-  position: absolute;
-  border-radius:50%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 80%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
- color:red;
-  background-color: white;
-}
-
-.block:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-			font-family: 'Work Sans', sans-serif;
-
-  color: black;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
 }
