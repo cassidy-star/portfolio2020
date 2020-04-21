@@ -1,0 +1,144 @@
+
+
+@media only screen and (min-width: 992px)
+body{
+	margin:1.5%;
+}
+header{
+	background-image: url("plant6.1.jpg");
+	background-repeat: repeat-x;
+}
+nav{
+	text-align: center;
+}
+#profile{
+	margin:3%;
+}
+.name{
+	font-family: 'Playfair Display', serif;
+	margin:1.5%;
+	margin-top: 4%;
+	font-size: 45px;
+	text-align: center;
+}
+.name2{
+		font-family: 'Playfair Display', serif;
+		margin:1.5%;
+	margin-top: 4%;
+	font-size: 30px;
+	text-align: center;
+
+}
+.about1{
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	padding-top: 13%;
+	float:right;
+	width:45%;
+}
+.btn{
+	float: middle;
+	color:white;
+
+}
+.skills{
+	margin: 5%;
+	font-family: 'Playfair Display', serif;
+	font-size: 35px;
+}
+.avatar{
+	border-radius: 50%;
+}
+
+card{
+	margin:10%;
+	width: 80%;
+}
+
+#text{
+	font-family: 'Work Sans', sans-serif;
+	padding: 15px;
+	margin:1%;
+	width: 60%;
+	text-align: center;
+
+
+}
+
+.edu{
+	margin: 5%;
+	font-family: 'Playfair Display', serif;
+	font-size: 35px;
+}
+.line{
+	background-image: url("plant3.1.jpg");
+	background-repeat: repeat-x;
+}
+.contact{
+	text-align: center;
+		font-family: 'Playfair Display', serif;
+		font-size: 35px;
+
+}
+.icons{
+	text-align: center;
+}
+a{
+	color:black;
+}
+footer{
+		font-family: 'Work Sans', sans-serif;
+		text-align: center;
+		font-size: 15px;
+}
+
+
+
+
+
+
+
+.block {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  border-radius:50%;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  border-radius:50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+ color:red;
+  background-color: white;
+}
+
+.block:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+			font-family: 'Work Sans', sans-serif;
+
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
